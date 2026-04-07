@@ -31,6 +31,16 @@ app.get('/health', async (req, res) => {
 const productsRoutes = require('./routes/products');
 app.use('/products', productsRoutes(db)); // ← PASSER db ICI
 
+app.get('/version', (req, res) => {
+  res.json({ 
+    service: 'catalogue', 
+    version: '1.0.1',
+    team: 'QuickCommerce Team NOM1-NOM2',
+    date: new Date().toISOString()
+  });
+});
+
+
 app.listen(PORT, () => {
   console.log(`📦 Catalogue Service - Port ${PORT}`);
 });
