@@ -1,1 +1,1 @@
-# quickcommerce-enseignant
+# quickcommerce-enseignant : version beta
