@@ -1,1 +1,1 @@
-# quickcommerce-enseignant : version beta
+# quickcommerce-enseignant : versin alpha
