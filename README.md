@@ -1,2 +1,2 @@
 # quickcommerce-team-tsanta
-Séance  7 - Intégration avec git
+Séance  7 - Intégration avec git - Tsanta
