@@ -1,1 +1,0 @@
-# quickcommerce-enseignant : versin alpha
